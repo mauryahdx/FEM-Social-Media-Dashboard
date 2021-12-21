@@ -15,8 +15,8 @@
 
 .card {
     flex: 1;
-    background: var(--dark-card);
-    color: var(--dark-text1);
+    background: var(--card-bg);
+    color: var(--text-color2);
     //width: rem(255);
     text-align: center;
     padding: rem(25);
@@ -27,7 +27,7 @@
     cursor: pointer;
 
     &:hover {
-        background: var(--dark-card-hover);
+        background: var(--card-hover);
     }
 
     &--facebook {
@@ -96,7 +96,7 @@
     }
 
     &__count {
-        color: var(--light-bg);
+        color: var(--text-color);
         font-weight: 700;
         letter-spacing: rem(-2);
         line-height: 1;
@@ -114,7 +114,7 @@
     &__label {
         font-size: rem(12);
         font-weight: 400;
-        color: var(--dark-text1);
+        color: var(--text-color2);
         text-transform: uppercase;
         letter-spacing: rem(3);
         margin-top: rem(9);
