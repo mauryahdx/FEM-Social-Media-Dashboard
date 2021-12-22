@@ -32,7 +32,9 @@ if(localStorage.getItem("colormode")){
        setDarkTheme();
        dark.checked=true;
    }
-  // theme.checked = true;
+ 
+}else {
+    dark.checked=true;
 }
 
 toggle.addEventListener('click', () => {

@@ -23,6 +23,14 @@
     --light-card-hover: hsl(228, 33%,91%);
     --light-text1: hsl(230, 12%, 44%);
     --light-text2: hsl(230, 17%, 14%);
+    --background: var(--dark-bg);
+    --text-color: var(--dark-text2);
+    --text-color2: var(--dark-text1);
+    --card-bg: var(--dark-card);
+    --card-hover: var(--dark-card-hover);
+    --toggle: var(--light-bg);
+    --toggle-bg: var(--toggle-dark-bg);
+    --radio-bg: var(--dark-bg);
 
 }
 
@@ -35,7 +43,7 @@
         --card-hover: var(--dark-card-hover);
         --toggle: var(--light-bg);
         --toggle-bg: var(--toggle-dark-bg);
-        --radio-bg: var(--dark-bg)
+        --radio-bg: var(--dark-bg);
     }
 }
 
@@ -72,5 +80,5 @@ body.dark {
     --card-hover: var(--dark-card-hover);
     --toggle: var(--light-bg);
     --toggle-bg: var(--toggle-dark-bg);
-    --radio-bg: var(--dark-bg)
+    --radio-bg: var(--dark-bg);
 }
