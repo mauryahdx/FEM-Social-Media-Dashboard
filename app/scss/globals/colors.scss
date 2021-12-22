@@ -39,6 +39,19 @@
     }
 }
 
+@media (prefers-color-scheme: light) {
+    :root {
+        --background: var(--light-bg);
+        --text-color: var(--light-text2);
+        --text-color2: var(--light-text1);
+        --card-bg: var(--light-card);
+        --card-hover: var(--light-card-hover);
+        --toggle: var(--toggle-light-text);
+        --toggle-bg: var(--toggle-light-bg);
+        --radio-bg: var(--light-bg);
+    }
+}
+
 body.light { 
     --background: var(--light-bg);
     --text-color: var(--light-text2);
