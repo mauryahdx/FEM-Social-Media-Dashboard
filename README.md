@@ -16,7 +16,6 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -74,13 +73,12 @@ I Phone Dark
 - Javascript
 
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
 With this project I have learnt more about BEM(Block Element Modifier) class naming convention which makes life easier for developer by naming classes with a convenient structure. I also got to learn about the local storage where we can store user infos and preferences locally and use the data for making user experience much better.
 
-As '@import' keyword is being depricated in sass so in this project i have lernt the use of keywords '@forward' and '@use'.
+As '@import' keyword is being depricated in sass so in this project i have learnt the use of keywords '@forward' and '@use'.
 
 I am attaching the code snippets of the above mentioned things below:
 
